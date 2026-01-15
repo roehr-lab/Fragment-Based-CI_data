@@ -1,0 +1,30 @@
+nthreads = 40
+BasisSet = /home/jgreiner/BasisSets/cc-pvtz.json
+savingHamiltonian = True
+doCorrelationCorrection = False
+nroots = 200
+maxExcitations = 2
+maxPathway = 1
+printDiabaticStates = True
+
+* ethene fragmentfile
+file = ethene.frag
+end
+
+&
+ethene   0.000000   0.000000   0.000000
+ethene   2.000000   0.000000   3.500000
+ethene   4.000000   0.000000   7.000000
+ethene   6.000000   0.000000  10.500000
+ethene   8.000000   0.000000  14.000000
+ethene  10.000000   0.000000  17.500000
+ethene  12.000000   0.000000  21.000000
+ethene  14.000000   0.000000  24.500000
+ethene  16.000000   0.000000  28.000000
+ethene  18.000000   0.000000  31.500000
+ethene  20.000000   0.000000  35.000000
+ethene  22.000000   0.000000  38.500000
+ethene  24.000000   0.000000  42.000000
+ethene  26.000000   0.000000  45.500000
+ethene  28.000000   0.000000  49.000000
+end

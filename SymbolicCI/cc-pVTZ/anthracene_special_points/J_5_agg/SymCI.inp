@@ -1,0 +1,20 @@
+nthreads = 40
+BasisSet = /home/jgreiner/BasisSets/cc-pvtz.json
+savingHamiltonian = True
+doCorrelationCorrection = False
+nroots = 200
+maxExcitations = 2
+maxPathway = 1
+printDiabaticStates = True
+
+* anth fragmentfile
+file = anthracene.frag
+end
+
+&
+anth   0.000000   0.000000   0.000000
+anth   0.000000   4.500000   3.750000
+anth   0.000000   9.000000   7.500000
+anth   0.000000  13.500000  11.250000
+anth   0.000000  18.000000  15.000000
+end

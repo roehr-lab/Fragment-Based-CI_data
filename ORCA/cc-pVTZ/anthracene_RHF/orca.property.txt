@@ -1,0 +1,93 @@
+*************************************************
+******************* ORCA 6.0.1 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &VERSION [&Type "String"] "6.0.1"
+   &PROGNAME [&Type "String"] "LeanSCF"
+   &STATUS [&Type "String"] "NORMAL TERMINATION"
+$End
+$Geometry
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 24
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(24,4), &Units "Bohr"] 
+              C     -6.895103807081    1.339929700214   -0.000000333205
+              C     -4.659270196155    2.653705666307   -0.000000103513
+              C     -2.305032652156    1.360668076290    0.000000254167
+              C     -2.305032861952   -1.360668384056    0.000000391781
+              C     -4.659270628326   -2.653705871645    0.000000299431
+              C     -6.895104161764   -1.339929745756   -0.000000070099
+              C      0.000000144258    2.652386629957    0.000000349600
+              C      2.305032949162    1.360668288737    0.000000288756
+              C     -0.000000030655   -2.652386814204    0.000000330803
+              C      2.305032832803   -1.360668258823    0.000000227101
+              C      4.659270422802    2.653705864144    0.000000211511
+              C      6.895103913433    1.339929868442   -0.000000086579
+              C      6.895103882076   -1.339929544416   -0.000000308209
+              C      4.659270447296   -2.653705675931   -0.000000153406
+              H     -8.671555812009    2.350949660585   -0.000000700729
+              H     -4.657778450116    4.700704878700   -0.000000330680
+              H     -4.657779290960   -4.700705086420    0.000000386961
+              H     -8.671556288358   -2.350949388436   -0.000000260058
+              H     -0.000000111700    4.702514391576    0.000000222165
+              H     -0.000000206211   -4.702514733998    0.000000254656
+              H      4.657778920861    4.700705028037    0.000000284975
+              H      8.671555961487    2.350949660915   -0.000000198711
+              H      8.671555876214   -2.350949326735   -0.000000621124
+              H      4.657779147050   -4.700704883485   -0.000000335593
+$End
+$SCF_Energy
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -5.3616261772339135e+02
+$End
+$Calculation_Info
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &MULT [&Type "Integer"] 1
+   &CHARGE [&Type "Integer"] 0
+   &NUMOFATOMS [&Type "Integer"] 24
+   &NUMOFELECTRONS [&Type "Integer"] 94
+   &NUMOFFCELECTRONS [&Type "Integer"] 1
+   &NUMOFCORRELECTRONS [&Type "Integer"] 0
+   &NUMOFBASISFUNCTS [&Type "Integer"] 560
+   &NUMOFAUXCBASISFUNCTS [&Type "Integer"] 0
+   &NUMOFAUXJBASISFUNCTS [&Type "Integer"] 0
+   &NUMOFAUXJKBASISFUNCTS [&Type "Integer"] 0
+   &NUMOFCABSBASISFUNCTS [&Type "Integer"] 0
+   &TOTALENERGY [&Type "Double"]      -5.3616261772339135e+02  "Hartrees"
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 24
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      2.5450626417237721e-07
+1                                     -1.6070957829217731e-07
+2                                      8.4858650915721418e-07
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                     -2.0374142284396157e-07
+1                                      1.6118193446601481e-07
+2                                     -1.0423313802636484e-06
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      5.0764841328415635e-08
+1                                      4.7235617383749839e-10
+2                                     -1.9374487110643422e-07
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       2.0028571420723693e-07
+$End

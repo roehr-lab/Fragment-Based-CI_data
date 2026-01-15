@@ -1,0 +1,6 @@
+! RHF cc-pvtz tightscf nopop MP2 tightopt
+%maxcore 3000
+%pal
+   nprocs 20
+end
+* xyzfile 0 1 geom.xyz

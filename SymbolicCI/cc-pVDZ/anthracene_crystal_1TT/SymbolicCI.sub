@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#SBATCH --tasks-per-node=10
+#SBATCH -N 1
+#SBATCH --mem-per-cpu=3g
+#SBATCH --time=14-00:00
+#SBATCH -p batch
+#SBATCH --error="err"
+#SBATCH --output="output"
+#SBATCH -J "SymCI"
+export scratchlocation=/scratch/${SLURM_JOB_ID}
+tdir=/scratch/${SLURM_JOB_ID}
+
+# Copy only the necessary stuff in submit directory to scratch directory. Add more here if needed.
+cp -r *.frag $tdir/
+cp SymCI.inp $tdir/SymCI.inp
+cp -r *.csv $tdir/
+cp -r *.xyz $tdir/
+cp -r *.json $tdir/
+cp -r *.h5 $tdir/
+
+# cd to scratch
+cd $tdir
+
+# Copy job and node info to beginning of outputfile
+echo "Job execution start: $(date)" >> out
+echo "Shared library path: $LD_LIBRARY_PATH" >> out
+echo "Slurm Job ID is: ${SLURM_JOB_ID}" >> out
+echo "Slurm Job name is: ${SLURM_JOB_NAME}" >> out
+echo $SLURM_NODELIST >> out
+export LD_LIBRARY_PATH=/home/jgreiner/Masterarbeit/Projects/libraries/gcc-13.3.0/lib64:$LD_LIBRARY_PATH
+
+/home/jgreiner/software/SymbolicCI/build/SymbolicCI SymCI.inp > SymCI.out
+echo "Job execution stoped: $(date)" >> out
+cp $tdir/* $SLURM_SUBMIT_DIR

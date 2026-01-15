@@ -1,0 +1,6 @@
+Job execution start: Tue May 20 10:57:32 CEST 2025
+Shared library path: /home/jgreiner/Masterarbeit/Projects/libraries/gcc-13.3.0/lib64:/local/gaussian-09.D01/g09/.:/local/turbomole-7.0:/local/vmd-1.9.2/lib:/local/molekel-5.4/lib:/local/molden-6.2:/home/jgreiner/Masterarbeit/Projects/libraries/gcc-13.3.0/lib64:/local/lib:/opt/local/lib:/local/lib:/opt/local/lib:/opt/lib:/usr/local/lib:/usr/lib:/lib
+Slurm Job ID is: 2658612
+Slurm Job name is: SymCI
+wux11
+Job execution stoped: Tue May 20 11:52:13 CEST 2025

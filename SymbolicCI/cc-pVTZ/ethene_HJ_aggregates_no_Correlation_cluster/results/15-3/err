@@ -1,0 +1,6 @@
+cp: cannot stat '*.csv': No such file or directory
+cp: cannot stat '*.xyz': No such file or directory
+cp: cannot stat '*.json': No such file or directory
+cp: cannot stat '*.h5': No such file or directory
+cp: cannot create regular file '/home/jgreiner/Promotion/MethodPaper/cc-pvtz/ethene_HJ_noCorrelation/results/15-3/aggregate.xyz': Input/output error
+cp: cannot create regular file '/home/jgreiner/Promotion/MethodPaper/cc-pvtz/ethene_HJ_noCorrelation/results/15-3/diabaticStates.json': Input/output error

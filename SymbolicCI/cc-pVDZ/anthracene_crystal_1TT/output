@@ -1,0 +1,26 @@
+--------------------------------------------------
+JOB FRONT-END 2685951 on wux39
+SLURM ENVIRONMENT
+--------------------------------------------------
+SLURM_JOB_ID                   = 2685951             
+SLURM_ARRAY_JOB_ID             = N/A                 
+SLURM_ARRAY_TASK_ID            = N/A                 
+SLURM_JOB_NAME                 = SymCI               
+SLURM_JOB_PARTITION            = batch               
+SLURM_JOB_NUM_NODES            = 1                   
+SLURM_JOB_CPUS_PER_NODE        = 10                  
+SLURM_NTASKS                   = 10                  
+SLURM_NTASKS_PER_NODE          = 10                  
+--------------------------------------------------
+--------------------------------------------------
+PBS ENVIRONMENT
+--------------------------------------------------
+PBS_JOBID                      = 2685951             
+PBS_ARRAYID                    = N/A                 
+PBS_JOBNAME                    = SymCI               
+PBS_QUEUE                      = batch               
+PBS_NUM_NODES                  = 1                   
+PBS_NUM_PPN                    = 10                  
+PBS_NP                         = 10                  
+PBS_NODEFILE                   = /tmp/2685951/nodes  
+--------------------------------------------------

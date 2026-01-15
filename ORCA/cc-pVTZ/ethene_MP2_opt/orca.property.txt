@@ -1,0 +1,424 @@
+*************************************************
+******************* ORCA 6.0.1 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &VERSION [&Type "String"] "6.0.1"
+   &PROGNAME [&Type "String"] "ProgMP2"
+   &STATUS [&Type "String"] "NORMAL TERMINATION"
+$End
+$Geometry
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 6
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(6,4), &Units "Bohr"] 
+              C      1.252947953163    0.000000000000    0.000000000000
+              C     -1.252948898026    0.000000000000    0.000000000000
+              H      2.331710399932    1.741890401821    0.000000000000
+              H     -2.331710399932   -1.741890968738    0.000000000000
+              H     -2.331710399932    1.741890401821    0.000000000000
+              H      2.331710399932   -1.741889079012    0.000000000000
+$End
+$SCF_Energy
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.8063949636514252e+01
+$End
+$MP2_Energies
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &REFENERGY [&Type "Double"]      -7.8063949636514252e+01  "Reference Energy"
+   &CORRENERGY [&Type "Double"]      -3.3525639375591404e-01  "MP2 correlation energy"
+   &TOTALENERGY [&Type "Double"]      -7.8399206030270165e+01  "MP2 total energy"
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 18
+   &ROOT [&Type "Integer"] 0
+   &GRADNORM [&Type "Double"]       1.5500394014790246e-02
+   &GRAD [&Type "ArrayOfDoubles", &Dim (18,1)] 
+                                                         0
+
+0                                     -1.0298819245686097e-02
+1                                     -3.5662229512511967e-07
+2                                      0.0000000000000000e+00
+3                                      1.0298795062119837e-02
+4                                      1.5817344836688285e-07
+5                                      0.0000000000000000e+00
+6                                      2.1523404346748265e-03
+7                                      1.5495327764536437e-03
+8                                      0.0000000000000000e+00
+9                                     -2.1522775906337444e-03
+10                                    -1.5496070298195441e-03
+11                                     0.0000000000000000e+00
+12                                    -2.1521638151809075e-03
+13                                     1.5494431512594886e-03
+14                                     0.0000000000000000e+00
+15                                     2.1521251548339837e-03
+16                                    -1.5491704490500080e-03
+17                                     0.0000000000000000e+00
+$End
+$Geometry
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 6
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(6,4), &Units "Bohr"] 
+              C      1.256740255507    0.000000159386    0.000000000000
+              C     -1.256741086232    0.000000048685    0.000000000000
+              H      2.328216851327    1.738563253438   -0.000000000000
+              H     -2.328216985596   -1.738563362455   -0.000000000000
+              H     -2.328217539634    1.738563194222   -0.000000000000
+              H      2.328217559764   -1.738562537386   -0.000000000000
+$End
+$SCF_Energy
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.8063974127623922e+01
+$End
+$MP2_Energies
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &REFENERGY [&Type "Double"]      -7.8063974127623922e+01  "Reference Energy"
+   &CORRENERGY [&Type "Double"]      -3.3531065718005970e-01  "MP2 correlation energy"
+   &TOTALENERGY [&Type "Double"]      -7.8399284784803982e+01  "MP2 total energy"
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 18
+   &ROOT [&Type "Integer"] 0
+   &GRADNORM [&Type "Double"]       4.6735442974547266e-03
+   &GRAD [&Type "ArrayOfDoubles", &Dim (18,1)] 
+                                                         0
+
+0                                     -3.0852669900296448e-03
+1                                     -2.6029679744965506e-08
+2                                      0.0000000000000000e+00
+3                                      3.0851624706098590e-03
+4                                      1.6084477930111696e-08
+5                                      0.0000000000000000e+00
+6                                      7.5245297975579106e-04
+7                                     -3.6749179063000348e-04
+8                                      0.0000000000000000e+00
+9                                     -7.5241519413893343e-04
+10                                     3.6746490674111065e-04
+11                                     0.0000000000000000e+00
+12                                    -7.5245638833409956e-04
+13                                    -3.6743224742008529e-04
+14                                     0.0000000000000000e+00
+15                                     7.5252312229623364e-04
+16                                     3.6746907645213156e-04
+17                                     0.0000000000000000e+00
+$End
+$Geometry
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 6
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(6,4), &Units "Bohr"] 
+              C      1.258463836199    0.000000281808    0.000000000006
+              C     -1.258464458029    0.000000019028    0.000000000004
+              H      2.324959034933    1.740394375957   -0.000000000003
+              H     -2.324959091425   -1.740394287569   -0.000000000002
+              H     -2.324959608870    1.740393950681   -0.000000000002
+              H      2.324959342329   -1.740393584016   -0.000000000003
+$End
+$SCF_Energy
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.8063920133229402e+01
+$End
+$MP2_Energies
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &REFENERGY [&Type "Double"]      -7.8063920133229402e+01  "Reference Energy"
+   &CORRENERGY [&Type "Double"]      -3.3538049177100904e-01  "MP2 correlation energy"
+   &TOTALENERGY [&Type "Double"]      -7.8399300625000407e+01  "MP2 total energy"
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 18
+   &ROOT [&Type "Integer"] 0
+   &GRADNORM [&Type "Double"]       1.1658322547869447e-03
+   &GRAD [&Type "ArrayOfDoubles", &Dim (18,1)] 
+                                                         0
+
+0                                     -3.3025097781447244e-04
+1                                     -1.4525770399009819e-08
+2                                     -2.6071810405715151e-12
+3                                      3.3017771665200257e-04
+4                                      1.9441843645412460e-08
+5                                      4.1975060369683903e-12
+6                                      2.7368419978746061e-04
+7                                     -4.5866847638142971e-04
+8                                      0.0000000000000000e+00
+9                                     -2.7362729058966195e-04
+10                                     4.5866714495046423e-04
+11                                    -1.5802149629994267e-12
+12                                    -2.7360979610269176e-04
+13                                    -4.5870701736738795e-04
+14                                    -1.4994490249236335e-12
+15                                     2.7362614804449237e-04
+16                                     4.5870343266729563e-04
+17                                     0.0000000000000000e+00
+$End
+$Geometry
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 6
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(6,4), &Units "Bohr"] 
+              C      1.258941146545    0.000000249626    0.000000000016
+              C     -1.258941571662   -0.000000003545   -0.000000000033
+              H      2.321637888895    1.742952601282   -0.000000000002
+              H     -2.321638309312   -1.742952351475    0.000000000011
+              H     -2.321638809873    1.742952225847    0.000000000011
+              H      2.321638710544   -1.742951965845   -0.000000000003
+$End
+$SCF_Energy
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.8063889625386423e+01
+$End
+$MP2_Energies
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &REFENERGY [&Type "Double"]      -7.8063889625386423e+01  "Reference Energy"
+   &CORRENERGY [&Type "Double"]      -3.3541616786336270e-01  "MP2 correlation energy"
+   &TOTALENERGY [&Type "Double"]      -7.8399305793249781e+01  "MP2 total energy"
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 18
+   &ROOT [&Type "Integer"] 0
+   &GRADNORM [&Type "Double"]       7.3366198107364163e-04
+   &GRAD [&Type "ArrayOfDoubles", &Dim (18,1)] 
+                                                         0
+
+0                                      4.5726487663344528e-04
+1                                      7.8744443215983395e-08
+2                                     -1.1111472883845067e-11
+3                                     -4.5730743229732695e-04
+4                                     -3.1107005811492616e-08
+5                                      1.2805851738535125e-11
+6                                      2.8047992250312959e-05
+7                                     -1.7098491130163040e-04
+8                                      6.9405192104633177e-12
+9                                     -2.8064097040036984e-05
+10                                     1.7097573966751156e-04
+11                                    -7.7601346545124183e-12
+12                                    -2.8096161631907535e-05
+13                                    -1.7091938564472997e-04
+14                                    -7.7812365170696451e-12
+15                                     2.8154821976489330e-05
+16                                     1.7088091970673958e-04
+17                                     6.9064731064257732e-12
+$End
+$Geometry
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 6
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(6,4), &Units "Bohr"] 
+              C      1.258711328802    0.000000281026    0.000000000080
+              C     -1.258711671632   -0.000000012038   -0.000000000121
+              H      2.320547862962    1.743798406721   -0.000000000017
+              H     -2.320548031421   -1.743798178025    0.000000000037
+              H     -2.320548508997    1.743797814412    0.000000000038
+              H      2.320548075423   -1.743797556205   -0.000000000017
+$End
+$SCF_Energy
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.8063892872213643e+01
+$End
+$MP2_Energies
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &REFENERGY [&Type "Double"]      -7.8063892872213643e+01  "Reference Energy"
+   &CORRENERGY [&Type "Double"]      -3.3541337797076687e-01  "MP2 correlation energy"
+   &TOTALENERGY [&Type "Double"]      -7.8399306250184409e+01  "MP2 total energy"
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 18
+   &ROOT [&Type "Integer"] 0
+   &GRADNORM [&Type "Double"]       2.3869369030871218e-04
+   &GRAD [&Type "ArrayOfDoubles", &Dim (18,1)] 
+                                                         0
+
+0                                      1.6552602648989279e-04
+1                                     -3.7654962984495777e-08
+2                                      1.0550115016688292e-11
+3                                     -1.6553356683424170e-04
+4                                      1.1977707950472372e-08
+5                                     -3.8366648418205169e-12
+6                                     -4.8892123696298029e-06
+7                                     -2.2762710682577847e-05
+8                                      8.9086527613840514e-12
+9                                      4.9142676377122996e-06
+10                                     2.2774267000702508e-05
+11                                    -1.2356055800030064e-11
+12                                     4.9319238095701934e-06
+13                                    -2.2804838456291776e-05
+14                                    -1.2254134708090132e-11
+15                                    -4.9494384317672058e-06
+16                                     2.2818959400261463e-05
+17                                     8.9880875719034216e-12
+$End
+$Geometry
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 6
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(6,4), &Units "Bohr"] 
+              C      1.258599249162    0.000000262403    0.000000000031
+              C     -1.258599578296   -0.000000004729   -0.000000000161
+              H      2.320416391792    1.743880977877    0.000000000007
+              H     -2.320416724412   -1.743880735021    0.000000000059
+              H     -2.320417218244    1.743880500490    0.000000000058
+              H      2.320416935135   -1.743880245130    0.000000000006
+$End
+$SCF_Energy
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.8063896772935664e+01
+$End
+$MP2_Energies
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &REFENERGY [&Type "Double"]      -7.8063896772935664e+01  "Reference Energy"
+   &CORRENERGY [&Type "Double"]      -3.3540960702085559e-01  "MP2 correlation energy"
+   &TOTALENERGY [&Type "Double"]      -7.8399306379956514e+01  "MP2 total energy"
+$End
+$MP2_Nuc_Gradient
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 18
+   &ROOT [&Type "Integer"] 0
+   &GRADNORM [&Type "Double"]       2.3082946055959382e-05
+   &GRAD [&Type "ArrayOfDoubles", &Dim (18,1)] 
+                                                         0
+
+0                                      1.6136937671440421e-05
+1                                      2.7525004553385912e-08
+2                                      1.6010251331948873e-12
+3                                     -1.6141114812739943e-05
+4                                     -1.1244793735043501e-08
+5                                     -1.7970256679692483e-12
+6                                     -1.5429499338193153e-06
+7                                      7.9790355833608828e-07
+8                                      1.0342118492020707e-11
+9                                      1.5212070605397088e-06
+10                                    -8.0904549681903859e-07
+11                                    -9.9525567551349946e-12
+12                                     1.5119262890550544e-06
+13                                     8.3559870089899846e-07
+14                                    -1.0253259683387869e-11
+15                                    -1.4860062160781951e-06
+16                                    -8.4073708750409537e-07
+17                                     1.0059698481319448e-11
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 6
+   &ListStatus       FIRST
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 6
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.3332992787087544e-08
+1                                      2.8934321357190091e-09
+2                                     -1.1038239874426413e-10
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      1.8083997854745348e-08
+1                                     -7.2830013131408577e-09
+2                                      1.6576174700385023e-10
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                     -5.2489949323421957e-09
+1                                     -4.3895691774218487e-09
+2                                      5.5379348259586096e-11
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       6.8427576484440569e-09
+$End
+$MP2_Dipole_Moment
+   &GeometryIndex 6
+   &ListStatus       IN
+   &METHOD [&Type "String"] "MP2"
+   &LEVEL [&Type "String"] "Unrelaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 6
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.3324401900453591e-08
+1                                      2.9315533871624995e-09
+2                                     -1.1046678664782678e-10
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      1.8083997854745348e-08
+1                                     -7.2830013131408577e-09
+2                                      1.6576174700385023e-10
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                     -5.2404040457082427e-09
+1                                     -4.3514479259783583e-09
+2                                      5.5294960356023451e-11
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       6.8117538965685961e-09
+$End
+$MP2_Dipole_Moment
+   &GeometryIndex 6
+   &ListStatus       LAST
+   &METHOD [&Type "String"] "MP2"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 6
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.2769112911814271e-08
+1                                      2.1418608557361189e-09
+2                                     -1.1502980397156098e-10
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      1.8083997854745348e-08
+1                                     -7.2830013131408577e-09
+2                                      1.6576174700385023e-10
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                     -4.6851150570689231e-09
+1                                     -5.1411404574047393e-09
+2                                      5.0731943032289247e-11
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       6.9558753604978852e-09
+$End

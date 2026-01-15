@@ -1,0 +1,19 @@
+nthreads = 10
+BasisSet = /Users/johannes/Documents/Uni/BasisSets/cc-pvtz.json
+nroots = 3
+doCorrelationCorrection = True
+
+* ethene xyzfile
+file = ethene_opt_MP2_cc-pvtz.xyz
+AOtoMO = AOtoMO.csv
+occupation = Occupations.csv
+OrbitalsIndices = [0,1]
+AOOrdering = ORCA
+correlationFile = correlations.csv
+end
+
+
+
+&
+ethene 0.00 0.00  0.00
+end

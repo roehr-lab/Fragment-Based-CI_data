@@ -1,0 +1,10 @@
+! PAL8 nopop tightscf printmos RHF
+%basis
+GTOName = "/Users/johannes/Documents/Uni/BasisSets/cc-pvdz.bas"
+end
+%CASSCF
+nel 4
+norb 4
+nroots 3
+end
+* xyzfile 0 1 anthracene_opt_MP2_cc-pvtz.xyz 

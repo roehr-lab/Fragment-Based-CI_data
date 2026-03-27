@@ -1,0 +1,137 @@
+ $$$$$$\$$\     $$\$$\      $$\$$$$$$$\  $$$$$$\ $$\      $$$$$$\ $$$$$$\
+$$  __$$\$$\   $$  $$$\    $$$ $$  __$$\$$  __$$\$$ |     \_$$  _$$  __$$\
+$$ /  \__\$$\ $$  /$$$$\  $$$$ $$ |  $$ $$ /  $$ $$ |       $$ | $$ /  \__|
+\$$$$$$\  \$$$$  / $$\$$\$$ $$ $$$$$$$\ $$ |  $$ $$ |       $$ | $$ |
+ \____$$\  \$$  /  $$ \$$$  $$ $$  __$$\$$ |  $$ $$ |       $$ | $$ |
+$$\   $$ |  $$ |   $$ |\$  /$$ $$ |  $$ $$ |  $$ $$ |       $$ | $$ |  $$\
+\$$$$$$  |  $$ |   $$ | \_/ $$ $$$$$$$  |$$$$$$  $$$$$$$$\$$$$$$\\$$$$$$  |
+ \______/   \__|   \__|     \__\_______/ \______/\________\______|\______/
+
+                               $$$$$$\ $$$$$$\
+                              $$  __$$\\_$$  _|
+                              $$ /  \__| $$ |
+                              $$ |       $$ |
+                              $$ |       $$ |
+                              $$ |  $$\  $$ |
+                              \$$$$$$  $$$$$$\
+                               \______/\______|    
+
+
+           #######################################################
+           #                        -***-                        #
+           #   Institute of Physical and Theoretical Chemistry   #
+           #            Core code : Johannes Greiner             #
+           #  Institut für Physikalische und Theoretische Chemie #
+           #         Emil-Fischer-Straße 42, Hubland Nord        #
+           #                  D-97074 Würzburg                   #
+           #                       Germany                       #
+           #                                                     #
+           #                  All rights reserved                #
+           #                        -***-                        #
+           #######################################################
+
+                   Program Version 0.2-136-gea2c0bf
+
+Multi-threading enabled. Program will use 10 threads.
+
+---------------------
+Fragment: anthracene4
+---------------------
+
+SCF calculation not needed.
+Multiplicity        ...             1   
+Charge              ...             0   
+Number of Electrons ...            94   
+Energy (Hartree)    ...  -1286.170036   
+Number of Atoms     ...            24   
+Number of Sites     ...             8   
+
+
+---------
+Aggregate
+---------
+
+Starting setting up Fragments
+Finished setting up Fragments
+Measured time:   0 hours  0 minutes  0 seconds   3 msec
+
+Starting preparing aggregate orbitals
+Finished preparing aggregate orbitals
+Measured time:   0 hours  0 minutes  0 seconds   3 msec
+
+Starting orthogonalization aggregate orbitals
+Finished orthogonalization aggregate orbitals
+Measured time:   0 hours  0 minutes  0 seconds   5 msec
+
+Starting finalizing aggregate orbitals
+MO45 was saved as MO45.cube.
+MO46 was saved as MO46.cube.
+MO47 was saved as MO47.cube.
+MO48 was saved as MO48.cube.
+Finished finalizing aggregate orbitals
+Measured time:   0 hours  0 minutes  5 seconds 358 msec
+
+Starting generating diabatic states
+Finished generating diabatic states
+Measured time:   0 hours  0 minutes  0 seconds   1 msec
+
+Number of Sides           ...   8   
+Number of Basis Functions ... 246   
+Number of Atoms           ...  24   
+Dimension of Hamiltonian  ...  20   
+
+Starting calculation of integrals
+Finished calculation of integrals
+
+-------
+Timings
+-------
+
+Integral                   ...                                 Duration        %   
+                           ...                                                     
+Non Relativistic Integrals ...   0 hours  0 minutes  7 seconds 788 msec   100.0%   
+Kinetic                    ...   0 hours  0 minutes  0 seconds   5 msec     0.1%   
+Nuclear                    ...   0 hours  0 minutes  0 seconds  29 msec     0.4%   
+Electron-Electron          ...   0 hours  0 minutes  7 seconds 748 msec    99.5%   
+Dipoles                    ...   0 hours  0 minutes  0 seconds   3 msec     0.0%   
+Electrostatic Potential    ...   0 hours  0 minutes  0 seconds   0 msec     0.0%   
+QM-MM Potential            ...   0 hours  0 minutes  0 seconds   1 msec     0.0%   
+Embedded Potential         ...   0 hours  0 minutes  0 seconds   0 msec     0.0%   
+
+Starting processing state names
+Finished processing state names
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+Starting building Hamiltonian
+Finished building Hamiltonian
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+Starting diagonalizing Hamiltonian
+Finished diagonalizing Hamiltonian
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+
+-----------------------
+Adiabatic Wavefunctions
+-----------------------
+
+ Psi   0: E = -1303.7341 au  ΔE=     0.0000 au      0.000 eV        0.0 cm**-1
+   2200 S2= 0.0 Sz= 0.0 P=0 :    95.6731 (c= 0.7569+0.6196i)
+ Psi   1: E = -1303.5544 au  ΔE=     0.1798 au      4.891 eV    39452.2 cm**-1
+   2110 S2= 0.0 Sz= 0.0 P=0 :    91.8925 (c=-0.4686-0.8363i)
+   1201 S2= 0.0 Sz= 0.0 P=0 :    6.77804 (c=-0.1273-0.2271i)
+ Psi   2: E = -1303.5377 au  ΔE=     0.1964 au      5.343 eV    43097.7 cm**-1
+   2101 S2= 0.0 Sz= 0.0 P=0 :    49.8545 (c= 0.5466-0.4470i)
+   1210 S2= 0.0 Sz= 0.0 P=0 :    49.2612 (c=-0.5433+0.4443i)
+
+--------------------------------------------------------------------------------------------------
+                     ABSORPTION SPECTRUM VIA TRANSITION ELECTRIC DIPOLE MOMENTS                   
+--------------------------------------------------------------------------------------------------
+       Transition        Energy     Energy  Wavelength fosc(D2)      D2      |DX|    |DY|    |DZ| 
+                          (eV)      (cm-1)    (nm)                 (au**2)   (au)    (au)    (au)  
+--------------------------------------------------------------------------------------------------
+  Psi   0 -> Psi   1    4.891457   39452.2   253.5   0.162957397   1.35981  0.0000  1.1661  0.0000
+  Psi   0 -> Psi   2    5.343434   43097.7   232.0   0.000036281   0.00028  0.0166  0.0000  0.0000
+
+       *** SymbolicCI terminated normally ***
+Total time:  0 days  0 hours  0 minutes 23 seconds 348 msec

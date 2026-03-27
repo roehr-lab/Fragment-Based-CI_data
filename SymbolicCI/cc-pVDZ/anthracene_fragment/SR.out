@@ -1,0 +1,112 @@
+ $$$$$$\$$\     $$\$$\      $$\$$$$$$$\  $$$$$$\ $$\      $$$$$$\ $$$$$$\
+$$  __$$\$$\   $$  $$$\    $$$ $$  __$$\$$  __$$\$$ |     \_$$  _$$  __$$\
+$$ /  \__\$$\ $$  /$$$$\  $$$$ $$ |  $$ $$ /  $$ $$ |       $$ | $$ /  \__|
+\$$$$$$\  \$$$$  / $$\$$\$$ $$ $$$$$$$\ $$ |  $$ $$ |       $$ | $$ |
+ \____$$\  \$$  /  $$ \$$$  $$ $$  __$$\$$ |  $$ $$ |       $$ | $$ |
+$$\   $$ |  $$ |   $$ |\$  /$$ $$ |  $$ $$ |  $$ $$ |       $$ | $$ |  $$\
+\$$$$$$  |  $$ |   $$ | \_/ $$ $$$$$$$  |$$$$$$  $$$$$$$$\$$$$$$\\$$$$$$  |
+ \______/   \__|   \__|     \__\_______/ \______/\________\______|\______/
+
+                               $$$$$$\ $$$$$$\
+                              $$  __$$\\_$$  _|
+                              $$ /  \__| $$ |
+                              $$ |       $$ |
+                              $$ |       $$ |
+                              $$ |  $$\  $$ |
+                              \$$$$$$  $$$$$$\
+                               \______/\______|    
+
+
+           #######################################################
+           #                        -***-                        #
+           #   Institute of Physical and Theoretical Chemistry   #
+           #            Core code : Johannes Greiner             #
+           #  Institut für Physikalische und Theoretische Chemie #
+           #         Emil-Fischer-Straße 42, Hubland Nord        #
+           #                  D-97074 Würzburg                   #
+           #                       Germany                       #
+           #                                                     #
+           #                  All rights reserved                #
+           #                        -***-                        #
+           #######################################################
+
+                   Program Version 0.2-4-g201315d-dirty
+
+Multi-threading enabled. Program will use 10 threads.
+
+--------------------
+Fragment: anthracene
+--------------------
+
+SCF calculation not needed.
+Multiplicity        ...             1   
+Charge              ...             0   
+Number of Electrons ...            94   
+Energy (Hartree)    ...      0.000000   
+Number of Atoms     ...            24   
+Number of Sites     ...             4   
+
+
+---------
+Aggregate
+---------
+
+MO46 was saved as MO46.cube.
+MO47 was saved as MO47.cube.
+Number of Sides           ...   4   
+Number of Basis Functions ... 246   
+Number of Atoms           ...  24   
+Dimension of Hamiltonian  ...   3   
+
+Starting calculation of integrals
+Finished calculation of integrals
+
+-------
+Timings
+-------
+
+Integral                   ...                                 Duration        %   
+                           ...                                                     
+Non Relativistic Integrals ...   0 hours  0 minutes 10 seconds 656 msec   100.0%   
+Overlap                    ...   0 hours  0 minutes  0 seconds   4 msec     0.0%   
+Kinetic                    ...   0 hours  0 minutes  0 seconds   5 msec     0.1%   
+Nuclear                    ...   0 hours  0 minutes  0 seconds  33 msec     0.3%   
+G Core                     ...   0 hours  0 minutes  0 seconds   0 msec     0.0%   
+Electron-Electron          ...   0 hours  0 minutes 10 seconds 606 msec    99.5%   
+Dipoles                    ...   0 hours  0 minutes  0 seconds   5 msec     0.1%   
+
+Starting processing state names
+Finished processing state names
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+Starting building Hamiltonian
+Finished building Hamiltonian
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+Starting diagonalizing Hamiltonian
+Finished diagonalizing Hamiltonian
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+
+-----------------------
+Adiabatic Wavefunctions
+-----------------------
+
+ Psi   0: E =  -536.0296 au  ΔE=     0.0000 au      0.000 eV        0.0 cm**-1 <S**2> =   0.000
+   20 S2= 0.0 Sz= 0.0 P=0 :     98.324 (c= 0.9916 0.0000i)
+ Psi   1: E =  -535.8574 au  ΔE=     0.1723 au      4.687 eV    37806.5 cm**-1 <S**2> =   0.000
+   11 S2= 0.0 Sz= 0.0 P=0 :        100 (c=-1.0000 0.0000i)
+ Psi   2: E =  -535.7510 au  ΔE=     0.2787 au      7.583 eV    61160.9 cm**-1 <S**2> =   0.000
+   02 S2= 0.0 Sz= 0.0 P=0 :     98.324 (c=-0.9916-0.0000i)
+
+--------------------------------------------------------------------------------------------------
+                     ABSORPTION SPECTRUM VIA TRANSITION ELECTRIC DIPOLE MOMENTS                   
+--------------------------------------------------------------------------------------------------
+       Transition        Energy     Energy  Wavelength fosc(D2)      D2      |DX|    |DY|    |DZ| 
+                          (eV)      (cm-1)    (nm)                 (au**2)   (au)    (au)    (au)  
+--------------------------------------------------------------------------------------------------
+  Psi   0 -> Psi   1    4.687408   37806.5   264.5   0.357670720   3.11453  0.0000  1.7648  0.0000
+  Psi   0 -> Psi   2    7.582996   61160.9   163.5   0.000000000   0.00000  0.0000  0.0000  0.0000
+
+       *** SymbolicCI terminated normally ***
+Total time:  0 days  0 hours  0 minutes 46 seconds 227 msec

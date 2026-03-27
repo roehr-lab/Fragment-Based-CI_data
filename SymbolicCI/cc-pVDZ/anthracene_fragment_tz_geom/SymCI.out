@@ -1,0 +1,133 @@
+ $$$$$$\$$\     $$\$$\      $$\$$$$$$$\  $$$$$$\ $$\      $$$$$$\ $$$$$$\
+$$  __$$\$$\   $$  $$$\    $$$ $$  __$$\$$  __$$\$$ |     \_$$  _$$  __$$\
+$$ /  \__\$$\ $$  /$$$$\  $$$$ $$ |  $$ $$ /  $$ $$ |       $$ | $$ /  \__|
+\$$$$$$\  \$$$$  / $$\$$\$$ $$ $$$$$$$\ $$ |  $$ $$ |       $$ | $$ |
+ \____$$\  \$$  /  $$ \$$$  $$ $$  __$$\$$ |  $$ $$ |       $$ | $$ |
+$$\   $$ |  $$ |   $$ |\$  /$$ $$ |  $$ $$ |  $$ $$ |       $$ | $$ |  $$\
+\$$$$$$  |  $$ |   $$ | \_/ $$ $$$$$$$  |$$$$$$  $$$$$$$$\$$$$$$\\$$$$$$  |
+ \______/   \__|   \__|     \__\_______/ \______/\________\______|\______/
+
+                               $$$$$$\ $$$$$$\
+                              $$  __$$\\_$$  _|
+                              $$ /  \__| $$ |
+                              $$ |       $$ |
+                              $$ |       $$ |
+                              $$ |  $$\  $$ |
+                              \$$$$$$  $$$$$$\
+                               \______/\______|    
+
+
+           #######################################################
+           #                        -***-                        #
+           #   Institute of Physical and Theoretical Chemistry   #
+           #            Core code : Johannes Greiner             #
+           #  Institut für Physikalische und Theoretische Chemie #
+           #         Emil-Fischer-Straße 42, Hubland Nord        #
+           #                  D-97074 Würzburg                   #
+           #                       Germany                       #
+           #                                                     #
+           #                  All rights reserved                #
+           #                        -***-                        #
+           #######################################################
+
+                   Program Version 0.2-97-gab9ab34-dirty
+
+Multi-threading enabled. Program will use 10 threads.
+
+--------------------
+Fragment: anthracene
+--------------------
+
+SCF calculation not needed.
+Multiplicity        ...             1   
+Charge              ...             0   
+Number of Electrons ...            94   
+Energy (Hartree)    ...  -1276.257469   
+Number of Atoms     ...            24   
+Number of Sites     ...             4   
+
+
+---------
+Aggregate
+---------
+
+Starting setting up Fragments
+Finished setting up Fragments
+Measured time:   0 hours  0 minutes  0 seconds   3 msec
+
+Starting preparing aggregate orbitals
+Finished preparing aggregate orbitals
+Measured time:   0 hours  0 minutes  0 seconds   2 msec
+
+Starting orthogonalization aggregate orbitals
+Finished orthogonalization aggregate orbitals
+Measured time:   0 hours  0 minutes  0 seconds   3 msec
+
+Starting finalizing aggregate orbitals
+MO46 was saved as MO46.cube.
+MO47 was saved as MO47.cube.
+Finished finalizing aggregate orbitals
+Measured time:   0 hours  0 minutes  2 seconds 759 msec
+
+Starting generating diabatic states
+Finished generating diabatic states
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+Number of Sides           ...   4   
+Number of Basis Functions ... 246   
+Number of Atoms           ...  24   
+Dimension of Hamiltonian  ...   3   
+
+Starting calculation of integrals
+Finished calculation of integrals
+
+-------
+Timings
+-------
+
+Integral                   ...                                 Duration        %   
+                           ...                                                     
+Non Relativistic Integrals ...   0 hours  0 minutes  7 seconds 795 msec   100.0%   
+Kinetic                    ...   0 hours  0 minutes  0 seconds   4 msec     0.1%   
+Nuclear                    ...   0 hours  0 minutes  0 seconds  29 msec     0.4%   
+Electron-Electron          ...   0 hours  0 minutes  7 seconds 755 msec    99.5%   
+Dipoles                    ...   0 hours  0 minutes  0 seconds   3 msec     0.0%   
+Electrostatic Potential    ...   0 hours  0 minutes  0 seconds   0 msec     0.0%   
+QM-MM Potential            ...   0 hours  0 minutes  0 seconds   2 msec     0.0%   
+Embedded Potential         ...   0 hours  0 minutes  0 seconds   0 msec     0.0%   
+
+Starting processing state names
+Finished processing state names
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+Starting building Hamiltonian
+Finished building Hamiltonian
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+Starting diagonalizing Hamiltonian
+Finished diagonalizing Hamiltonian
+Measured time:   0 hours  0 minutes  0 seconds   0 msec
+
+
+-----------------------
+Adiabatic Wavefunctions
+-----------------------
+
+ Psi   0: E =  -536.0347 au  ΔE=     0.0000 au      0.000 eV        0.0 cm**-1 <S**2> =   0.000
+   20 S2= 0.0 Sz= 0.0 P=0 :    98.3763 (c= 0.9918 0.0000i)
+ Psi   1: E =  -535.8607 au  ΔE=     0.1740 au      4.735 eV    38190.7 cm**-1 <S**2> =   0.000
+   11 S2= 0.0 Sz= 0.0 P=0 :        100 (c=-1.0000 0.0000i)
+ Psi   2: E =  -535.7523 au  ΔE=     0.2824 au      7.686 eV    61988.9 cm**-1 <S**2> =   0.000
+   02 S2= 0.0 Sz= 0.0 P=0 :    98.3763 (c=-0.9918 0.0000i)
+
+--------------------------------------------------------------------------------------------------
+                     ABSORPTION SPECTRUM VIA TRANSITION ELECTRIC DIPOLE MOMENTS                   
+--------------------------------------------------------------------------------------------------
+       Transition        Energy     Energy  Wavelength fosc(D2)      D2      |DX|    |DY|    |DZ| 
+                          (eV)      (cm-1)    (nm)                 (au**2)   (au)    (au)    (au)  
+--------------------------------------------------------------------------------------------------
+  Psi   0 -> Psi   1    4.735050   38190.7   261.8   0.356802453   3.07571  0.0000  1.7538  0.0000
+  Psi   0 -> Psi   2    7.685650   61988.9   161.3   0.000000000   0.00000  0.0000  0.0000  0.0000
+
+       *** SymbolicCI terminated normally ***
+Total time:  0 days  0 hours  0 minutes 20 seconds 727 msec

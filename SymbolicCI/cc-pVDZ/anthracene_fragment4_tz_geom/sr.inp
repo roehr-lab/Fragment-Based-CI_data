@@ -1,0 +1,18 @@
+nthreads = 10
+BasisSet = /Users/johannes/Documents/Uni/BasisSets/cc-pvdz.json
+nroots = 3
+doCorrelationCorrection = False
+printMOsAsCubes = True
+* anthracene4 xyzfile
+file = anthracene_opt_MP2_cc-pvtz.xyz
+AOtoMO = AOtoMO.csv
+occupation = Occupations.csv
+OrbitalsIndices = [-1,0,1,2]
+AOOrdering = ORCA
+end
+
+
+
+&
+anthracene4 0.00 0.00  0.00
+end
